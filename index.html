@@ -15,14 +15,16 @@
         <form action="#">
             <!-- # 代表当前路径 -->
 
-            <!-- first name -->
+            <!-- first name 信息输入框-->
+            <!-- 此处for-"id" 此m属性可以将label标签与特定input输入框链接起来，单击label会自动激活对应的输入框-->
             <label for="fname">First Name</label>
             <input type="text" name="firstName" id="fname" placeholder="Your first name...">
-            <!-- first name -->
+            
+            <!-- first name 信息输入框-->
             <label for="lname">Last Name</label>
             <input type="text" name="firstName" id="lname" placeholder="Your last name...">
 
-            <!-- country selection -->
+            <!-- country selection 信息下拉框-->
             <label for="country">Country</label>
             <select name="country" id="country">
                 <option value="aus - 1">Australia</option>
@@ -31,24 +33,25 @@
                 <option value="CND - 4">Canada</option>
             </select>
 
-            <!-- multi slection -->
+            <!-- multi slection 多选功能-->
+            <!-- 此处for-"id" 此m属性可以将label标签与特定input选框框链接起来，单击label会自动勾上对应的选框-->
             <label for="apple">Apple</label>
             <input type="checkbox" name="apple" id="apple">
             <label for="banana">Banana</label>
             <input type="checkbox" name="Banana" id="banana">
 
-            <!-- single section -->
+            <!-- single section 单选功能-->
             <label for="female">Female</label>
             <input type="radio" name="gender" id="female">
             <label for="male">Male</label>
             <input type="radio" name="gender" id="male">
 
-            <!-- password -->
+            <!-- password 信息输入框（加密）-->
             <br>
             <label for="pwd">Password</label>
             <input type="password" name="mypassword" id="pwd" placeholder="Your password...">
 
-            <!-- submit button -->
+            <!-- submit button （点击互动） -->
             <input type="Submit" value="submit">
         </form>
     </section>
